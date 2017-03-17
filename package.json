@@ -1,0 +1,27 @@
+{
+  "name": "sans-server-aws-lambda",
+  "version": "0.0.1",
+  "description": "An aws lambda handler function that sends requests through sans-server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byu-oit-appdev/sans-server-aws-lambda.git"
+  },
+  "keywords": [
+    "sans-server",
+    "sans-server-middleware",
+    "express"
+  ],
+  "author": "James Speirs <james.speirs@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/byu-oit-appdev/sans-server-aws-lambda/issues"
+  },
+  "homepage": "https://github.com/byu-oit-appdev/sans-server-aws-lambda#readme",
+  "dependencies": {
+    "binary-case": "^1.1.3"
+  }
+}
