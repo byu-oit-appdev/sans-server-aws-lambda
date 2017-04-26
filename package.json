@@ -1,6 +1,6 @@
 {
   "name": "sans-server-aws-lambda",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An aws lambda handler function that sends requests through sans-server.",
   "main": "index.js",
   "scripts": {
