@@ -27,8 +27,15 @@ function Translator(sansServerInstance) {
 
         // make the request
         sansServerInstance.request(req)
-            .then(res => callback(null, Translator.to(res)))
-            .catch(err => callback(err, null));
+            .then(res => {
+                const event = Translator.to(res);
+                console.log(event);
+                callback(null, event)
+            })
+            .catch(err => {
+                console.error(err.stack);
+                callback(err, null)
+            });
     };
 }
 
