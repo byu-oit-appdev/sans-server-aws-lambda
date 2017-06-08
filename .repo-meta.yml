@@ -14,8 +14,8 @@ ddd:
   ubiquitous_language_url: 
   context_map_url: 
 links:
-  system_documentation_url: https://github.com/byu-oit-appdev/sans-server-aws-lambda
-  source_repo_url: https://github.com/byu-oit-appdev/sans-server-aws-lambda
+  system_documentation_url: https://github.com/byu-oit/sans-server-aws-lambda
+  source_repo_url: https://github.com/byu-oit/sans-server-aws-lambda
   swagger_urls:
 microservice: False
 technologies_used:
@@ -23,7 +23,7 @@ technologies_used:
 stages:
   production:
     urls:
-      product_page: https://github.com/byu-oit-appdev/sans-server-aws-lambda
+      product_page: https://github.com/byu-oit/sans-server-aws-lambda
       physical_url: 
       virtual_url: 
     hosting_location: 
@@ -47,5 +47,5 @@ tags:
   env: prd
   app: sans-server-aws-lambda
   team: gro:AD-Miscellaneous Information Applications
-federation_json_url: https://raw.githubusercontent.com/byu-oit-appdev/sans-server-aws-lambda/master/.repo-meta.yml
+federation_json_url: https://raw.githubusercontent.com/byu-oit/sans-server-aws-lambda/master/.repo-meta.yml
 
